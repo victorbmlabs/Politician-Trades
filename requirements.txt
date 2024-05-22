@@ -1,0 +1,10 @@
+backoff==1.11.1
+certifi==2024.2.2
+charset-normalizer==2.0.12
+idna==3.7
+random-user-agent==1.0.1
+ratelimiter==1.2.0
+requests==2.27.1
+sec-python==0.5.0a0
+tqdm==4.62.3
+urllib3==1.26.18

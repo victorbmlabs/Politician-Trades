@@ -1,0 +1,6 @@
+poetvenv/
+__pychache__/
+.env
+.dockerignore
+.venv/
+venv/
