@@ -1,0 +1,779 @@
+[
+    {
+        "_txId": 10000062398,
+        "_politicianId": "P000595",
+        "_assetId": 100018928,
+        "_issuerId": 2334710,
+        "pubDate": "2024-05-23T21:15:09Z",
+        "filingDate": "2024-05-23",
+        "txDate": "2024-05-14",
+        "txType": "sell",
+        "txTypeExtended": null,
+        "hasCapitalGains": false,
+        "owner": "self",
+        "chamber": "senate",
+        "price": null,
+        "size": null,
+        "sizeRangeHigh": null,
+        "sizeRangeLow": null,
+        "value": 8000,
+        "filingId": 100114670,
+        "filingURL": "https://efdsearch.senate.gov/search/view/ptr/1f48b3e2-dafe-4f0a-ab51-32cb30c9337b/",
+        "reportingGap": 9,
+        "comment": null,
+        "committees": [
+            "ssap",
+            "ssas",
+            "sscm",
+            "ssga"
+        ],
+        "asset": {
+            "assetType": "stock",
+            "assetTicker": "SOLV:US",
+            "instrument": null
+        },
+        "issuer": {
+            "_stateId": "mn",
+            "c2iq": "UPQVU1C4",
+            "country": "us",
+            "issuerName": "SOLVENTUM CORP  -SPN",
+            "issuerTicker": "SOLV:US",
+            "sector": null
+        },
+        "politician": {
+            "_stateId": "mi",
+            "chamber": "senate",
+            "dob": "1958-12-01",
+            "firstName": "Gary",
+            "gender": "male",
+            "lastName": "Peters",
+            "nickname": null,
+            "party": "democrat"
+        },
+        "labels": []
+    },
+    {
+        "_txId": 10000062399,
+        "_politicianId": "P000595",
+        "_assetId": 100005698,
+        "_issuerId": 430400,
+        "pubDate": "2024-05-23T21:15:09Z",
+        "filingDate": "2024-05-23",
+        "txDate": "2024-05-14",
+        "txType": "sell",
+        "txTypeExtended": null,
+        "hasCapitalGains": false,
+        "owner": "self",
+        "chamber": "senate",
+        "price": 14.52,
+        "size": 552,
+        "sizeRangeHigh": 1034,
+        "sizeRangeLow": 69,
+        "value": 8000,
+        "filingId": 100114670,
+        "filingURL": "https://efdsearch.senate.gov/search/view/ptr/1f48b3e2-dafe-4f0a-ab51-32cb30c9337b/",
+        "reportingGap": 9,
+        "comment": null,
+        "committees": [
+            "ssap",
+            "ssas",
+            "sscm",
+            "ssga"
+        ],
+        "asset": {
+            "assetType": "stock",
+            "assetTicker": "CCL:US",
+            "instrument": null
+        },
+        "issuer": {
+            "_stateId": "fl",
+            "c2iq": "4RAVU1C1",
+            "country": "us",
+            "issuerName": "Carnival Corporation & PLC",
+            "issuerTicker": "CCL:US",
+            "sector": "consumer-discretionary"
+        },
+        "politician": {
+            "_stateId": "mi",
+            "chamber": "senate",
+            "dob": "1958-12-01",
+            "firstName": "Gary",
+            "gender": "male",
+            "lastName": "Peters",
+            "nickname": null,
+            "party": "democrat"
+        },
+        "labels": []
+    },
+    {
+        "_txId": 10000062400,
+        "_politicianId": "P000595",
+        "_assetId": 100010791,
+        "_issuerId": 434568,
+        "pubDate": "2024-05-23T21:15:09Z",
+        "filingDate": "2024-05-23",
+        "txDate": "2024-05-14",
+        "txType": "sell",
+        "txTypeExtended": null,
+        "hasCapitalGains": false,
+        "owner": "self",
+        "chamber": "senate",
+        "price": 48.62,
+        "size": 165,
+        "sizeRangeHigh": 309,
+        "sizeRangeLow": 21,
+        "value": 8000,
+        "filingId": 100114670,
+        "filingURL": "https://efdsearch.senate.gov/search/view/ptr/1f48b3e2-dafe-4f0a-ab51-32cb30c9337b/",
+        "reportingGap": 9,
+        "comment": null,
+        "committees": [
+            "ssap",
+            "ssas",
+            "sscm",
+            "ssga"
+        ],
+        "asset": {
+            "assetType": "stock",
+            "assetTicker": "SLB:US",
+            "instrument": null
+        },
+        "issuer": {
+            "_stateId": "tx",
+            "c2iq": "R79VU1C6",
+            "country": "us",
+            "issuerName": "Schlumberger Ltd",
+            "issuerTicker": "SLB:US",
+            "sector": "energy"
+        },
+        "politician": {
+            "_stateId": "mi",
+            "chamber": "senate",
+            "dob": "1958-12-01",
+            "firstName": "Gary",
+            "gender": "male",
+            "lastName": "Peters",
+            "nickname": null,
+            "party": "democrat"
+        },
+        "labels": []
+    },
+    {
+        "_txId": 10000062401,
+        "_politicianId": "P000595",
+        "_assetId": 100008170,
+        "_issuerId": 432482,
+        "pubDate": "2024-05-23T21:15:09Z",
+        "filingDate": "2024-05-23",
+        "txDate": "2024-05-14",
+        "txType": "sell",
+        "txTypeExtended": null,
+        "hasCapitalGains": false,
+        "owner": "self",
+        "chamber": "senate",
+        "price": 96.63,
+        "size": 337,
+        "sizeRangeHigh": 518,
+        "sizeRangeLow": 156,
+        "value": 32500,
+        "filingId": 100114670,
+        "filingURL": "https://efdsearch.senate.gov/search/view/ptr/1f48b3e2-dafe-4f0a-ab51-32cb30c9337b/",
+        "reportingGap": 9,
+        "comment": null,
+        "committees": [
+            "ssap",
+            "ssas",
+            "sscm",
+            "ssga"
+        ],
+        "asset": {
+            "assetType": "stock",
+            "assetTicker": "IFF:US",
+            "instrument": null
+        },
+        "issuer": {
+            "_stateId": "ny",
+            "c2iq": "18PVU1B0",
+            "country": "us",
+            "issuerName": "International Flavors & Fragrances Inc",
+            "issuerTicker": "IFF:US",
+            "sector": "materials"
+        },
+        "politician": {
+            "_stateId": "mi",
+            "chamber": "senate",
+            "dob": "1958-12-01",
+            "firstName": "Gary",
+            "gender": "male",
+            "lastName": "Peters",
+            "nickname": null,
+            "party": "democrat"
+        },
+        "labels": []
+    },
+    {
+        "_txId": 20003773561,
+        "_politicianId": "M001135",
+        "_assetId": 100012703,
+        "_issuerId": 547164,
+        "pubDate": "2024-05-23T13:05:03Z",
+        "filingDate": "2024-05-22",
+        "txDate": "2024-04-22",
+        "txType": "sell",
+        "txTypeExtended": null,
+        "hasCapitalGains": false,
+        "owner": "spouse",
+        "chamber": "house",
+        "price": null,
+        "size": null,
+        "sizeRangeHigh": null,
+        "sizeRangeLow": null,
+        "value": 175000,
+        "filingId": 204852142,
+        "filingURL": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2024/20025112.pdf",
+        "reportingGap": 30,
+        "comment": "Subholding Of: RRK Charitable Trust U/A 11/28/00 #2 Description: Hedge Fund. Fund manager letter on file with the Committee on Ethics.",
+        "committees": [
+            "hsed",
+            "hsfa"
+        ],
+        "asset": {
+            "assetType": "hedge-pvt-eq-funds-non-eif",
+            "assetTicker": null,
+            "instrument": null
+        },
+        "issuer": {
+            "_stateId": null,
+            "c2iq": null,
+            "country": null,
+            "issuerName": "SEVEN BRIDGES LONG SHORT EQUITY FUND LTD",
+            "issuerTicker": null,
+            "sector": null
+        },
+        "politician": {
+            "_stateId": "nc",
+            "chamber": "house",
+            "dob": "1956-12-03",
+            "firstName": "Kathy",
+            "gender": "female",
+            "lastName": "Manning",
+            "nickname": null,
+            "party": "democrat"
+        },
+        "labels": []
+    },
+    {
+        "_txId": 20003773562,
+        "_politicianId": "M001135",
+        "_assetId": 100012703,
+        "_issuerId": 547164,
+        "pubDate": "2024-05-23T13:05:03Z",
+        "filingDate": "2024-05-22",
+        "txDate": "2024-05-03",
+        "txType": "sell",
+        "txTypeExtended": null,
+        "hasCapitalGains": false,
+        "owner": "spouse",
+        "chamber": "house",
+        "price": null,
+        "size": null,
+        "sizeRangeHigh": null,
+        "sizeRangeLow": null,
+        "value": 750000,
+        "filingId": 204852142,
+        "filingURL": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2024/20025112.pdf",
+        "reportingGap": 19,
+        "comment": "Subholding Of: 2021 Kathy E. Manning Irrevocable GST Trust FBO Randall R Kaplan & Descendants > Randall Robert Description: Investment Company. Fund manager letter on file with the Committee on Ethics.",
+        "committees": [
+            "hsed",
+            "hsfa"
+        ],
+        "asset": {
+            "assetType": "hedge-pvt-eq-funds-non-eif",
+            "assetTicker": null,
+            "instrument": null
+        },
+        "issuer": {
+            "_stateId": null,
+            "c2iq": null,
+            "country": null,
+            "issuerName": "SEVEN BRIDGES LONG SHORT EQUITY FUND LTD",
+            "issuerTicker": null,
+            "sector": null
+        },
+        "politician": {
+            "_stateId": "nc",
+            "chamber": "house",
+            "dob": "1956-12-03",
+            "firstName": "Kathy",
+            "gender": "female",
+            "lastName": "Manning",
+            "nickname": null,
+            "party": "democrat"
+        },
+        "labels": []
+    },
+    {
+        "_txId": 20003773563,
+        "_politicianId": "M001135",
+        "_assetId": 100018099,
+        "_issuerId": 2334087,
+        "pubDate": "2024-05-23T13:05:03Z",
+        "filingDate": "2024-05-22",
+        "txDate": "2024-04-22",
+        "txType": "buy",
+        "txTypeExtended": null,
+        "hasCapitalGains": false,
+        "owner": "spouse",
+        "chamber": "house",
+        "price": null,
+        "size": null,
+        "sizeRangeHigh": null,
+        "sizeRangeLow": null,
+        "value": 175000,
+        "filingId": 204852142,
+        "filingURL": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2024/20025112.pdf",
+        "reportingGap": 30,
+        "comment": "Subholding Of: RRK Charitable Trust U/A 11/28/00 #2 Description: Investment Company. Fund manager letter on file with the Committee on Ethics.",
+        "committees": [
+            "hsed",
+            "hsfa"
+        ],
+        "asset": {
+            "assetType": "hedge-pvt-eq-funds-non-eif",
+            "assetTicker": null,
+            "instrument": null
+        },
+        "issuer": {
+            "_stateId": null,
+            "c2iq": null,
+            "country": null,
+            "issuerName": "SEVEN BRIDGES MULTI STRATEGY FUND LP",
+            "issuerTicker": null,
+            "sector": null
+        },
+        "politician": {
+            "_stateId": "nc",
+            "chamber": "house",
+            "dob": "1956-12-03",
+            "firstName": "Kathy",
+            "gender": "female",
+            "lastName": "Manning",
+            "nickname": null,
+            "party": "democrat"
+        },
+        "labels": []
+    },
+    {
+        "_txId": 20003773551,
+        "_politicianId": "K000375",
+        "_assetId": 100004558,
+        "_issuerId": 429469,
+        "pubDate": "2024-05-23T13:05:02Z",
+        "filingDate": "2024-05-22",
+        "txDate": "2024-05-17",
+        "txType": "sell",
+        "txTypeExtended": null,
+        "hasCapitalGains": false,
+        "owner": "not-disclosed",
+        "chamber": "house",
+        "price": 303.59,
+        "size": 27,
+        "sizeRangeHigh": 50,
+        "sizeRangeLow": 4,
+        "value": 8000,
+        "filingId": 204852141,
+        "filingURL": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2024/20025119.pdf",
+        "reportingGap": 5,
+        "comment": "Subholding Of: Bill's IRA",
+        "committees": [
+            "hsas",
+            "hsfa"
+        ],
+        "asset": {
+            "assetType": "stock",
+            "assetTicker": "ACN:US",
+            "instrument": "CLASS A"
+        },
+        "issuer": {
+            "_stateId": null,
+            "c2iq": "0AUVU1F2",
+            "country": "ie",
+            "issuerName": "Accenture PLC",
+            "issuerTicker": "ACN:US",
+            "sector": "information-technology"
+        },
+        "politician": {
+            "_stateId": "ma",
+            "chamber": "house",
+            "dob": "1952-09-06",
+            "firstName": "William",
+            "gender": "male",
+            "lastName": "Keating",
+            "nickname": "Bill",
+            "party": "democrat"
+        },
+        "labels": []
+    },
+    {
+        "_txId": 20003773552,
+        "_politicianId": "K000375",
+        "_assetId": 100014810,
+        "_issuerId": 429542,
+        "pubDate": "2024-05-23T13:05:02Z",
+        "filingDate": "2024-05-22",
+        "txDate": "2024-05-17",
+        "txType": "sell",
+        "txTypeExtended": null,
+        "hasCapitalGains": false,
+        "owner": "not-disclosed",
+        "chamber": "house",
+        "price": 145.66,
+        "size": 55,
+        "sizeRangeHigh": 103,
+        "sizeRangeLow": 7,
+        "value": 8000,
+        "filingId": 204852141,
+        "filingURL": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2024/20025119.pdf",
+        "reportingGap": 5,
+        "comment": "Subholding Of: Bill's IRA",
+        "committees": [
+            "hsas",
+            "hsfa"
+        ],
+        "asset": {
+            "assetType": "stock",
+            "assetTicker": "ABNB:US",
+            "instrument": "CLASS A"
+        },
+        "issuer": {
+            "_stateId": "ca",
+            "c2iq": "0RSVU1C3",
+            "country": "us",
+            "issuerName": "Airbnb Inc",
+            "issuerTicker": "ABNB:US",
+            "sector": "consumer-discretionary"
+        },
+        "politician": {
+            "_stateId": "ma",
+            "chamber": "house",
+            "dob": "1952-09-06",
+            "firstName": "William",
+            "gender": "male",
+            "lastName": "Keating",
+            "nickname": "Bill",
+            "party": "democrat"
+        },
+        "labels": []
+    },
+    {
+        "_txId": 20003773553,
+        "_politicianId": "K000375",
+        "_assetId": 100013919,
+        "_issuerId": 429622,
+        "pubDate": "2024-05-23T13:05:02Z",
+        "filingDate": "2024-05-22",
+        "txDate": "2024-05-17",
+        "txType": "sell",
+        "txTypeExtended": null,
+        "hasCapitalGains": false,
+        "owner": "not-disclosed",
+        "chamber": "house",
+        "price": 176.06,
+        "size": 46,
+        "sizeRangeHigh": 86,
+        "sizeRangeLow": 6,
+        "value": 8000,
+        "filingId": 204852141,
+        "filingURL": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2024/20025119.pdf",
+        "reportingGap": 5,
+        "comment": "Subholding Of: Bill's IRA",
+        "committees": [
+            "hsas",
+            "hsfa"
+        ],
+        "asset": {
+            "assetType": "stock",
+            "assetTicker": "GOOGL:US",
+            "instrument": "CLASS A"
+        },
+        "issuer": {
+            "_stateId": "ca",
+            "c2iq": "WZ0VU1G9",
+            "country": "us",
+            "issuerName": "Alphabet Inc",
+            "issuerTicker": "GOOGL:US",
+            "sector": "communication-services"
+        },
+        "politician": {
+            "_stateId": "ma",
+            "chamber": "house",
+            "dob": "1952-09-06",
+            "firstName": "William",
+            "gender": "male",
+            "lastName": "Keating",
+            "nickname": "Bill",
+            "party": "democrat"
+        },
+        "labels": [
+            "faang"
+        ]
+    },
+    {
+        "_txId": 20003773554,
+        "_politicianId": "K000375",
+        "_assetId": 100004776,
+        "_issuerId": 429648,
+        "pubDate": "2024-05-23T13:05:02Z",
+        "filingDate": "2024-05-22",
+        "txDate": "2024-05-17",
+        "txType": "buy",
+        "txTypeExtended": null,
+        "hasCapitalGains": false,
+        "owner": "not-disclosed",
+        "chamber": "house",
+        "price": 184.7,
+        "size": 177,
+        "sizeRangeHigh": 271,
+        "sizeRangeLow": 82,
+        "value": 32500,
+        "filingId": 204852141,
+        "filingURL": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2024/20025119.pdf",
+        "reportingGap": 5,
+        "comment": "Subholding Of: Bill's IRA",
+        "committees": [
+            "hsas",
+            "hsfa"
+        ],
+        "asset": {
+            "assetType": "stock",
+            "assetTicker": "AMZN:US",
+            "instrument": null
+        },
+        "issuer": {
+            "_stateId": "wa",
+            "c2iq": "KPVVU125",
+            "country": "us",
+            "issuerName": "Amazon.com Inc",
+            "issuerTicker": "AMZN:US",
+            "sector": "consumer-discretionary"
+        },
+        "politician": {
+            "_stateId": "ma",
+            "chamber": "house",
+            "dob": "1952-09-06",
+            "firstName": "William",
+            "gender": "male",
+            "lastName": "Keating",
+            "nickname": "Bill",
+            "party": "democrat"
+        },
+        "labels": [
+            "faang"
+        ]
+    },
+    {
+        "_txId": 20003773555,
+        "_politicianId": "K000375",
+        "_assetId": 100005129,
+        "_issuerId": 429934,
+        "pubDate": "2024-05-23T13:05:02Z",
+        "filingDate": "2024-05-22",
+        "txDate": "2024-05-17",
+        "txType": "sell",
+        "txTypeExtended": null,
+        "hasCapitalGains": false,
+        "owner": "not-disclosed",
+        "chamber": "house",
+        "price": 2917.5,
+        "size": 4,
+        "sizeRangeHigh": 6,
+        "sizeRangeLow": 1,
+        "value": 8000,
+        "filingId": 204852141,
+        "filingURL": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2024/20025119.pdf",
+        "reportingGap": 5,
+        "comment": "Subholding Of: Bill's IRA",
+        "committees": [
+            "hsas",
+            "hsfa"
+        ],
+        "asset": {
+            "assetType": "stock",
+            "assetTicker": "AZO:US",
+            "instrument": null
+        },
+        "issuer": {
+            "_stateId": "tn",
+            "c2iq": "V2GVU1C7",
+            "country": "us",
+            "issuerName": "AutoZone Inc",
+            "issuerTicker": "AZO:US",
+            "sector": "consumer-discretionary"
+        },
+        "politician": {
+            "_stateId": "ma",
+            "chamber": "house",
+            "dob": "1952-09-06",
+            "firstName": "William",
+            "gender": "male",
+            "lastName": "Keating",
+            "nickname": "Bill",
+            "party": "democrat"
+        },
+        "labels": []
+    },
+    {
+        "_txId": 20003773556,
+        "_politicianId": "K000375",
+        "_assetId": 100006566,
+        "_issuerId": 431156,
+        "pubDate": "2024-05-23T13:05:02Z",
+        "filingDate": "2024-05-22",
+        "txDate": "2024-05-17",
+        "txType": "sell",
+        "txTypeExtended": null,
+        "hasCapitalGains": false,
+        "owner": "not-disclosed",
+        "chamber": "house",
+        "price": 57.68,
+        "size": 140,
+        "sizeRangeHigh": 261,
+        "sizeRangeLow": 18,
+        "value": 8000,
+        "filingId": 204852141,
+        "filingURL": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2024/20025119.pdf",
+        "reportingGap": 5,
+        "comment": "Subholding Of: Bill's IRA",
+        "committees": [
+            "hsas",
+            "hsfa"
+        ],
+        "asset": {
+            "assetType": "stock",
+            "assetTicker": "CVS:US",
+            "instrument": null
+        },
+        "issuer": {
+            "_stateId": "ri",
+            "c2iq": "5ANVU1B3",
+            "country": "us",
+            "issuerName": "CVS Health Corp",
+            "issuerTicker": "CVS:US",
+            "sector": "health-care"
+        },
+        "politician": {
+            "_stateId": "ma",
+            "chamber": "house",
+            "dob": "1952-09-06",
+            "firstName": "William",
+            "gender": "male",
+            "lastName": "Keating",
+            "nickname": "Bill",
+            "party": "democrat"
+        },
+        "labels": []
+    },
+    {
+        "_txId": 20003773557,
+        "_politicianId": "K000375",
+        "_assetId": 100008554,
+        "_issuerId": 432726,
+        "pubDate": "2024-05-23T13:05:02Z",
+        "filingDate": "2024-05-22",
+        "txDate": "2024-05-17",
+        "txType": "sell",
+        "txTypeExtended": null,
+        "hasCapitalGains": false,
+        "owner": "not-disclosed",
+        "chamber": "house",
+        "price": 136.44,
+        "size": 59,
+        "sizeRangeHigh": 110,
+        "sizeRangeLow": 8,
+        "value": 8000,
+        "filingId": 204852141,
+        "filingURL": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2024/20025119.pdf",
+        "reportingGap": 5,
+        "comment": "Subholding Of: Bill's IRA",
+        "committees": [
+            "hsas",
+            "hsfa"
+        ],
+        "asset": {
+            "assetType": "stock",
+            "assetTicker": "J:US",
+            "instrument": null
+        },
+        "issuer": {
+            "_stateId": "tx",
+            "c2iq": "G6PVU1B6",
+            "country": "us",
+            "issuerName": "Jacobs Engineering Group Inc",
+            "issuerTicker": "J:US",
+            "sector": "industrials"
+        },
+        "politician": {
+            "_stateId": "ma",
+            "chamber": "house",
+            "dob": "1952-09-06",
+            "firstName": "William",
+            "gender": "male",
+            "lastName": "Keating",
+            "nickname": "Bill",
+            "party": "democrat"
+        },
+        "labels": []
+    },
+    {
+        "_txId": 20003773558,
+        "_politicianId": "K000375",
+        "_assetId": 100009023,
+        "_issuerId": 433121,
+        "pubDate": "2024-05-23T13:05:02Z",
+        "filingDate": "2024-05-22",
+        "txDate": "2024-05-17",
+        "txType": "sell",
+        "txTypeExtended": null,
+        "hasCapitalGains": false,
+        "owner": "not-disclosed",
+        "chamber": "house",
+        "price": 231.11,
+        "size": 35,
+        "sizeRangeHigh": 65,
+        "sizeRangeLow": 5,
+        "value": 8000,
+        "filingId": 204852141,
+        "filingURL": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2024/20025119.pdf",
+        "reportingGap": 5,
+        "comment": "Subholding Of: Bill's IRA",
+        "committees": [
+            "hsas",
+            "hsfa"
+        ],
+        "asset": {
+            "assetType": "stock",
+            "assetTicker": "LOW:US",
+            "instrument": null
+        },
+        "issuer": {
+            "_stateId": "nc",
+            "c2iq": "QKPVU1B6",
+            "country": "us",
+            "issuerName": "Lowe's Cos Inc",
+            "issuerTicker": "LOW:US",
+            "sector": "consumer-discretionary"
+        },
+        "politician": {
+            "_stateId": "ma",
+            "chamber": "house",
+            "dob": "1952-09-06",
+            "firstName": "William",
+            "gender": "male",
+            "lastName": "Keating",
+            "nickname": "Bill",
+            "party": "democrat"
+        },
+        "labels": []
+    }
+]
