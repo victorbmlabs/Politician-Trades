@@ -121,9 +121,13 @@ class CapitolTrades:
                 return pid
         return None
 
-    def get_all_politician_trades(self, id: Union[Trade, str], age_days: int = 365):
+    def get_all_politician_trades(
+        self, id: Union[Trade, str], age_days: int = 365
+    ) -> list[Trade]:
         """Get all trades of a politician either by a Trade or politcian id string"""
-        params = {"txDate": age_days}
+        params = {}
+        all_trades = []
+
         params["politician"] = id._politicianId if isinstance(id, Trade) else id
 
         r = self.__session.get(
@@ -131,13 +135,11 @@ class CapitolTrades:
         )
         r.raise_for_status()
 
-        response_json = r.json()
-        data = response_json["data"]
+        data = r.json()
+        print(data)
+        all_trades.extend(Trade.from_dict(tr) for tr in data["data"])
 
-        with open("data-politician-trade.json", "w+") as f:
-            import json
-
-            json.dump(f, data, indent=4)
+        return all_trades
 
     def trades(self, politician_id: str) -> list[dict]:
         """Returns all of the trades for the provided politician ids."""

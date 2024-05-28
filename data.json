@@ -21,24 +21,15 @@
         "filingURL": "https://efdsearch.senate.gov/search/view/ptr/1f48b3e2-dafe-4f0a-ab51-32cb30c9337b/",
         "reportingGap": 9,
         "comment": null,
-        "committees": [
-            "ssap",
-            "ssas",
-            "sscm",
-            "ssga"
-        ],
-        "asset": {
-            "assetType": "stock",
-            "assetTicker": "SOLV:US",
-            "instrument": null
-        },
+        "committees": ["ssap", "ssas", "sscm", "ssga"],
+        "asset": {"assetType": "stock", "assetTicker": "SOLV:US", "instrument": null},
         "issuer": {
             "_stateId": "mn",
             "c2iq": "UPQVU1C4",
             "country": "us",
             "issuerName": "SOLVENTUM CORP  -SPN",
             "issuerTicker": "SOLV:US",
-            "sector": null
+            "sector": null,
         },
         "politician": {
             "_stateId": "mi",
@@ -48,9 +39,9 @@
             "gender": "male",
             "lastName": "Peters",
             "nickname": null,
-            "party": "democrat"
+            "party": "democrat",
         },
-        "labels": []
+        "labels": [],
     },
     {
         "_txId": 10000062399,
@@ -74,24 +65,15 @@
         "filingURL": "https://efdsearch.senate.gov/search/view/ptr/1f48b3e2-dafe-4f0a-ab51-32cb30c9337b/",
         "reportingGap": 9,
         "comment": null,
-        "committees": [
-            "ssap",
-            "ssas",
-            "sscm",
-            "ssga"
-        ],
-        "asset": {
-            "assetType": "stock",
-            "assetTicker": "CCL:US",
-            "instrument": null
-        },
+        "committees": ["ssap", "ssas", "sscm", "ssga"],
+        "asset": {"assetType": "stock", "assetTicker": "CCL:US", "instrument": null},
         "issuer": {
             "_stateId": "fl",
             "c2iq": "4RAVU1C1",
             "country": "us",
             "issuerName": "Carnival Corporation & PLC",
             "issuerTicker": "CCL:US",
-            "sector": "consumer-discretionary"
+            "sector": "consumer-discretionary",
         },
         "politician": {
             "_stateId": "mi",
@@ -101,9 +83,9 @@
             "gender": "male",
             "lastName": "Peters",
             "nickname": null,
-            "party": "democrat"
+            "party": "democrat",
         },
-        "labels": []
+        "labels": [],
     },
     {
         "_txId": 10000062400,
@@ -127,24 +109,15 @@
         "filingURL": "https://efdsearch.senate.gov/search/view/ptr/1f48b3e2-dafe-4f0a-ab51-32cb30c9337b/",
         "reportingGap": 9,
         "comment": null,
-        "committees": [
-            "ssap",
-            "ssas",
-            "sscm",
-            "ssga"
-        ],
-        "asset": {
-            "assetType": "stock",
-            "assetTicker": "SLB:US",
-            "instrument": null
-        },
+        "committees": ["ssap", "ssas", "sscm", "ssga"],
+        "asset": {"assetType": "stock", "assetTicker": "SLB:US", "instrument": null},
         "issuer": {
             "_stateId": "tx",
             "c2iq": "R79VU1C6",
             "country": "us",
             "issuerName": "Schlumberger Ltd",
             "issuerTicker": "SLB:US",
-            "sector": "energy"
+            "sector": "energy",
         },
         "politician": {
             "_stateId": "mi",
@@ -154,9 +127,9 @@
             "gender": "male",
             "lastName": "Peters",
             "nickname": null,
-            "party": "democrat"
+            "party": "democrat",
         },
-        "labels": []
+        "labels": [],
     },
     {
         "_txId": 10000062401,
@@ -180,24 +153,15 @@
         "filingURL": "https://efdsearch.senate.gov/search/view/ptr/1f48b3e2-dafe-4f0a-ab51-32cb30c9337b/",
         "reportingGap": 9,
         "comment": null,
-        "committees": [
-            "ssap",
-            "ssas",
-            "sscm",
-            "ssga"
-        ],
-        "asset": {
-            "assetType": "stock",
-            "assetTicker": "IFF:US",
-            "instrument": null
-        },
+        "committees": ["ssap", "ssas", "sscm", "ssga"],
+        "asset": {"assetType": "stock", "assetTicker": "IFF:US", "instrument": null},
         "issuer": {
             "_stateId": "ny",
             "c2iq": "18PVU1B0",
             "country": "us",
             "issuerName": "International Flavors & Fragrances Inc",
             "issuerTicker": "IFF:US",
-            "sector": "materials"
+            "sector": "materials",
         },
         "politician": {
             "_stateId": "mi",
@@ -207,9 +171,9 @@
             "gender": "male",
             "lastName": "Peters",
             "nickname": null,
-            "party": "democrat"
+            "party": "democrat",
         },
-        "labels": []
+        "labels": [],
     },
     {
         "_txId": 20003773561,
@@ -233,14 +197,11 @@
         "filingURL": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2024/20025112.pdf",
         "reportingGap": 30,
         "comment": "Subholding Of: RRK Charitable Trust U/A 11/28/00 #2 Description: Hedge Fund. Fund manager letter on file with the Committee on Ethics.",
-        "committees": [
-            "hsed",
-            "hsfa"
-        ],
+        "committees": ["hsed", "hsfa"],
         "asset": {
             "assetType": "hedge-pvt-eq-funds-non-eif",
             "assetTicker": null,
-            "instrument": null
+            "instrument": null,
         },
         "issuer": {
             "_stateId": null,
@@ -248,7 +209,7 @@
             "country": null,
             "issuerName": "SEVEN BRIDGES LONG SHORT EQUITY FUND LTD",
             "issuerTicker": null,
-            "sector": null
+            "sector": null,
         },
         "politician": {
             "_stateId": "nc",
@@ -258,9 +219,9 @@
             "gender": "female",
             "lastName": "Manning",
             "nickname": null,
-            "party": "democrat"
+            "party": "democrat",
         },
-        "labels": []
+        "labels": [],
     },
     {
         "_txId": 20003773562,
@@ -284,14 +245,11 @@
         "filingURL": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2024/20025112.pdf",
         "reportingGap": 19,
         "comment": "Subholding Of: 2021 Kathy E. Manning Irrevocable GST Trust FBO Randall R Kaplan & Descendants > Randall Robert Description: Investment Company. Fund manager letter on file with the Committee on Ethics.",
-        "committees": [
-            "hsed",
-            "hsfa"
-        ],
+        "committees": ["hsed", "hsfa"],
         "asset": {
             "assetType": "hedge-pvt-eq-funds-non-eif",
             "assetTicker": null,
-            "instrument": null
+            "instrument": null,
         },
         "issuer": {
             "_stateId": null,
@@ -299,7 +257,7 @@
             "country": null,
             "issuerName": "SEVEN BRIDGES LONG SHORT EQUITY FUND LTD",
             "issuerTicker": null,
-            "sector": null
+            "sector": null,
         },
         "politician": {
             "_stateId": "nc",
@@ -309,9 +267,9 @@
             "gender": "female",
             "lastName": "Manning",
             "nickname": null,
-            "party": "democrat"
+            "party": "democrat",
         },
-        "labels": []
+        "labels": [],
     },
     {
         "_txId": 20003773563,
@@ -335,14 +293,11 @@
         "filingURL": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2024/20025112.pdf",
         "reportingGap": 30,
         "comment": "Subholding Of: RRK Charitable Trust U/A 11/28/00 #2 Description: Investment Company. Fund manager letter on file with the Committee on Ethics.",
-        "committees": [
-            "hsed",
-            "hsfa"
-        ],
+        "committees": ["hsed", "hsfa"],
         "asset": {
             "assetType": "hedge-pvt-eq-funds-non-eif",
             "assetTicker": null,
-            "instrument": null
+            "instrument": null,
         },
         "issuer": {
             "_stateId": null,
@@ -350,7 +305,7 @@
             "country": null,
             "issuerName": "SEVEN BRIDGES MULTI STRATEGY FUND LP",
             "issuerTicker": null,
-            "sector": null
+            "sector": null,
         },
         "politician": {
             "_stateId": "nc",
@@ -360,9 +315,9 @@
             "gender": "female",
             "lastName": "Manning",
             "nickname": null,
-            "party": "democrat"
+            "party": "democrat",
         },
-        "labels": []
+        "labels": [],
     },
     {
         "_txId": 20003773551,
@@ -386,14 +341,11 @@
         "filingURL": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2024/20025119.pdf",
         "reportingGap": 5,
         "comment": "Subholding Of: Bill's IRA",
-        "committees": [
-            "hsas",
-            "hsfa"
-        ],
+        "committees": ["hsas", "hsfa"],
         "asset": {
             "assetType": "stock",
             "assetTicker": "ACN:US",
-            "instrument": "CLASS A"
+            "instrument": "CLASS A",
         },
         "issuer": {
             "_stateId": null,
@@ -401,7 +353,7 @@
             "country": "ie",
             "issuerName": "Accenture PLC",
             "issuerTicker": "ACN:US",
-            "sector": "information-technology"
+            "sector": "information-technology",
         },
         "politician": {
             "_stateId": "ma",
@@ -411,9 +363,9 @@
             "gender": "male",
             "lastName": "Keating",
             "nickname": "Bill",
-            "party": "democrat"
+            "party": "democrat",
         },
-        "labels": []
+        "labels": [],
     },
     {
         "_txId": 20003773552,
@@ -437,14 +389,11 @@
         "filingURL": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2024/20025119.pdf",
         "reportingGap": 5,
         "comment": "Subholding Of: Bill's IRA",
-        "committees": [
-            "hsas",
-            "hsfa"
-        ],
+        "committees": ["hsas", "hsfa"],
         "asset": {
             "assetType": "stock",
             "assetTicker": "ABNB:US",
-            "instrument": "CLASS A"
+            "instrument": "CLASS A",
         },
         "issuer": {
             "_stateId": "ca",
@@ -452,7 +401,7 @@
             "country": "us",
             "issuerName": "Airbnb Inc",
             "issuerTicker": "ABNB:US",
-            "sector": "consumer-discretionary"
+            "sector": "consumer-discretionary",
         },
         "politician": {
             "_stateId": "ma",
@@ -462,9 +411,9 @@
             "gender": "male",
             "lastName": "Keating",
             "nickname": "Bill",
-            "party": "democrat"
+            "party": "democrat",
         },
-        "labels": []
+        "labels": [],
     },
     {
         "_txId": 20003773553,
@@ -488,14 +437,11 @@
         "filingURL": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2024/20025119.pdf",
         "reportingGap": 5,
         "comment": "Subholding Of: Bill's IRA",
-        "committees": [
-            "hsas",
-            "hsfa"
-        ],
+        "committees": ["hsas", "hsfa"],
         "asset": {
             "assetType": "stock",
             "assetTicker": "GOOGL:US",
-            "instrument": "CLASS A"
+            "instrument": "CLASS A",
         },
         "issuer": {
             "_stateId": "ca",
@@ -503,7 +449,7 @@
             "country": "us",
             "issuerName": "Alphabet Inc",
             "issuerTicker": "GOOGL:US",
-            "sector": "communication-services"
+            "sector": "communication-services",
         },
         "politician": {
             "_stateId": "ma",
@@ -513,11 +459,9 @@
             "gender": "male",
             "lastName": "Keating",
             "nickname": "Bill",
-            "party": "democrat"
+            "party": "democrat",
         },
-        "labels": [
-            "faang"
-        ]
+        "labels": ["faang"],
     },
     {
         "_txId": 20003773554,
@@ -541,22 +485,15 @@
         "filingURL": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2024/20025119.pdf",
         "reportingGap": 5,
         "comment": "Subholding Of: Bill's IRA",
-        "committees": [
-            "hsas",
-            "hsfa"
-        ],
-        "asset": {
-            "assetType": "stock",
-            "assetTicker": "AMZN:US",
-            "instrument": null
-        },
+        "committees": ["hsas", "hsfa"],
+        "asset": {"assetType": "stock", "assetTicker": "AMZN:US", "instrument": null},
         "issuer": {
             "_stateId": "wa",
             "c2iq": "KPVVU125",
             "country": "us",
             "issuerName": "Amazon.com Inc",
             "issuerTicker": "AMZN:US",
-            "sector": "consumer-discretionary"
+            "sector": "consumer-discretionary",
         },
         "politician": {
             "_stateId": "ma",
@@ -566,11 +503,9 @@
             "gender": "male",
             "lastName": "Keating",
             "nickname": "Bill",
-            "party": "democrat"
+            "party": "democrat",
         },
-        "labels": [
-            "faang"
-        ]
+        "labels": ["faang"],
     },
     {
         "_txId": 20003773555,
@@ -594,22 +529,15 @@
         "filingURL": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2024/20025119.pdf",
         "reportingGap": 5,
         "comment": "Subholding Of: Bill's IRA",
-        "committees": [
-            "hsas",
-            "hsfa"
-        ],
-        "asset": {
-            "assetType": "stock",
-            "assetTicker": "AZO:US",
-            "instrument": null
-        },
+        "committees": ["hsas", "hsfa"],
+        "asset": {"assetType": "stock", "assetTicker": "AZO:US", "instrument": null},
         "issuer": {
             "_stateId": "tn",
             "c2iq": "V2GVU1C7",
             "country": "us",
             "issuerName": "AutoZone Inc",
             "issuerTicker": "AZO:US",
-            "sector": "consumer-discretionary"
+            "sector": "consumer-discretionary",
         },
         "politician": {
             "_stateId": "ma",
@@ -619,9 +547,9 @@
             "gender": "male",
             "lastName": "Keating",
             "nickname": "Bill",
-            "party": "democrat"
+            "party": "democrat",
         },
-        "labels": []
+        "labels": [],
     },
     {
         "_txId": 20003773556,
@@ -645,22 +573,15 @@
         "filingURL": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2024/20025119.pdf",
         "reportingGap": 5,
         "comment": "Subholding Of: Bill's IRA",
-        "committees": [
-            "hsas",
-            "hsfa"
-        ],
-        "asset": {
-            "assetType": "stock",
-            "assetTicker": "CVS:US",
-            "instrument": null
-        },
+        "committees": ["hsas", "hsfa"],
+        "asset": {"assetType": "stock", "assetTicker": "CVS:US", "instrument": null},
         "issuer": {
             "_stateId": "ri",
             "c2iq": "5ANVU1B3",
             "country": "us",
             "issuerName": "CVS Health Corp",
             "issuerTicker": "CVS:US",
-            "sector": "health-care"
+            "sector": "health-care",
         },
         "politician": {
             "_stateId": "ma",
@@ -670,9 +591,9 @@
             "gender": "male",
             "lastName": "Keating",
             "nickname": "Bill",
-            "party": "democrat"
+            "party": "democrat",
         },
-        "labels": []
+        "labels": [],
     },
     {
         "_txId": 20003773557,
@@ -696,22 +617,15 @@
         "filingURL": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2024/20025119.pdf",
         "reportingGap": 5,
         "comment": "Subholding Of: Bill's IRA",
-        "committees": [
-            "hsas",
-            "hsfa"
-        ],
-        "asset": {
-            "assetType": "stock",
-            "assetTicker": "J:US",
-            "instrument": null
-        },
+        "committees": ["hsas", "hsfa"],
+        "asset": {"assetType": "stock", "assetTicker": "J:US", "instrument": null},
         "issuer": {
             "_stateId": "tx",
             "c2iq": "G6PVU1B6",
             "country": "us",
             "issuerName": "Jacobs Engineering Group Inc",
             "issuerTicker": "J:US",
-            "sector": "industrials"
+            "sector": "industrials",
         },
         "politician": {
             "_stateId": "ma",
@@ -721,9 +635,9 @@
             "gender": "male",
             "lastName": "Keating",
             "nickname": "Bill",
-            "party": "democrat"
+            "party": "democrat",
         },
-        "labels": []
+        "labels": [],
     },
     {
         "_txId": 20003773558,
@@ -747,22 +661,15 @@
         "filingURL": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2024/20025119.pdf",
         "reportingGap": 5,
         "comment": "Subholding Of: Bill's IRA",
-        "committees": [
-            "hsas",
-            "hsfa"
-        ],
-        "asset": {
-            "assetType": "stock",
-            "assetTicker": "LOW:US",
-            "instrument": null
-        },
+        "committees": ["hsas", "hsfa"],
+        "asset": {"assetType": "stock", "assetTicker": "LOW:US", "instrument": null},
         "issuer": {
             "_stateId": "nc",
             "c2iq": "QKPVU1B6",
             "country": "us",
             "issuerName": "Lowe's Cos Inc",
             "issuerTicker": "LOW:US",
-            "sector": "consumer-discretionary"
+            "sector": "consumer-discretionary",
         },
         "politician": {
             "_stateId": "ma",
@@ -772,8 +679,8 @@
             "gender": "male",
             "lastName": "Keating",
             "nickname": "Bill",
-            "party": "democrat"
+            "party": "democrat",
         },
-        "labels": []
-    }
+        "labels": [],
+    },
 ]
