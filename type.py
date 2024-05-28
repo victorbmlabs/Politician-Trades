@@ -56,14 +56,28 @@ class Politician:
 
 @dataclass_json(letter_case=LetterCase.CAMEL)
 @dataclass
+class CommitteeMember:
+    _politicianId: str
+    member_role: str
+    side: str
+    chamber: str
+    party: str
+    first_name: str
+    last_name: str
+    middle_name: Optional[str] = None
+    nickname: Optional[str] = None
+
+
+@dataclass_json(letter_case=LetterCase.CAMEL)
+@dataclass
 class Committee:
     _committeeId: str
     chamber: str
     committee_name: str
     committee_url: str
-    members: list[Politician]
+    members: list[CommitteeMember]
     stats: Stats
-    meta: dict
+    meta: Optional[dict] = None
 
     def __post__init__(self):
         self.stats.date_first_traded = parse_str_date(self.stats.date_first_traded)

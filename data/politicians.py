@@ -111,16 +111,24 @@ class CapitolTrades:
 
     def get_committee(self, committee: Union[str, list[str]]) -> list[Committee]:
         """Gets data about the committee(s) from CapitolTrades"""
-        _committees = (
-            []  # Underscore for ease of use to seperate the return list (_committees) from param committee
-        )
+
+        # Underscore for ease of use to seperate the return list (_committees) from param committee
+        _committees = []
 
         if isinstance(committee, str):
             committee = [committee]
 
         for id in committee:
-            r = self.__get(f"/committees/{id}")
-            print(r.request.headers)
+            r: dict = self.__get(f"/committees/{id}").json()
+
+            if r.get("data"):
+                c = Committee.from_dict(r["data"])
+                if c in _committees:
+                    continue
+
+                _committees.append(c)
+
+        return _committees
 
     def get_politician_id(self, name: str) -> Optional[str]:
         """Search for the politician ID of the provided name."""
@@ -140,9 +148,7 @@ class CapitolTrades:
 
         params["politician"] = id._politicianId if isinstance(id, Trade) else id
 
-        r = self.__get("/trades", params)
-        data = r.json()
-        print(data)
+        data = self.__get("/trades", params).json()
         all_trades.extend(Trade.from_dict(tr) for tr in data["data"])
 
         return all_trades
@@ -162,15 +168,10 @@ class CapitolTrades:
                 ("txDate", "all"),
                 ("politician", politician_id),
             )
-            r = self.__get("/trades", params=params)
-            response_json = r.json()
-            data = response_json["data"]
+            data = self.__get("/trades", params=params).json()
             all_trades.extend(data)
 
-            if (
-                len(all_trades) >= response_json["meta"]["paging"]["totalItems"]
-                or not data
-            ):
+            if len(all_trades) >= data["meta"]["paging"]["totalItems"] or not data:
                 paginating = False
             else:
                 page += 1
@@ -189,8 +190,7 @@ class CapitolTrades:
 
         while paginating:
             params = {"page": page}
-            r = self.__get("/trades", params=params)
-            data = r.json()
+            data = self.__get("/trades", params=params).json()
 
             all_trades.extend(Trade.from_dict(tr) for tr in data["data"])
             page += 1
