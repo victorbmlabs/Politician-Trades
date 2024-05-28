@@ -110,7 +110,7 @@ class CapitolTrades:
         """Gets data about the committee(s) from CapitolTrades"""
 
         # Underscore for ease of use to seperate the return list (_committees) from param committee
-        _committees = []
+        _committees = set()
 
         if isinstance(committee, str):
             committee = [committee]
@@ -120,10 +120,7 @@ class CapitolTrades:
 
             if r.get("data"):
                 c = Committee.from_dict(r["data"])
-                if c in _committees:
-                    continue
-
-                _committees.append(c)
+                _committees.add(c)
 
         return _committees
 

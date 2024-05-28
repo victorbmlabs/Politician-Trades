@@ -4,6 +4,7 @@ from dataclasses_json import dataclass_json, LetterCase
 from enum import Enum
 from typing import Union, Optional, Literal
 from util import parse_str_date, parse_iso_date
+from yfinance import Ticker
 
 
 class Chamber(Enum):
@@ -152,7 +153,7 @@ class CompanyOfficer:
 
 @dataclass_json(letter_case=LetterCase.CAMEL)
 @dataclass
-class Stock:
+class StockData:
     """Represents the entire stock's info object from Yahoo Finance API"""
 
     address1: str
@@ -277,3 +278,14 @@ class Stock:
     operating_margins: float
     financial_currency: str
     trailing_peg_ratio: float
+
+
+@dataclass
+class Stock:
+    """Stock objct holds our StockData (extensive data of stock) and yfinance Ticker object"""
+
+    ticker: Ticker
+    data: StockData
+
+    def get_history(self, period: str = "3mo", interval: str = "1h"):
+        return self.ticker.history(period=period, interval=interval)

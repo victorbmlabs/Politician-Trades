@@ -1,6 +1,6 @@
 from data.politicians import CapitolTrades
 from data.mongo import Client
-from data.finance import calculate_bollinger_bands
+from data.finance import calculate_bollinger_bands, calculate_rsi, calculate_adx
 
 # from broker import degiro
 
@@ -13,8 +13,8 @@ from data.finance import calculate_bollinger_bands
 # t = trades.get_all_politician_trades(politcian)
 
 
-from data.markets import get_current_stock_price, get_stock_by_ticker
+from data.markets import get_stock_by_ticker
 
-
-bands = calculate_bollinger_bands("AAPL")
-print(bands)
+stock = get_stock_by_ticker("NVDA")
+obv = calculate_adx(stock)
+print(obv)
