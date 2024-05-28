@@ -3,7 +3,6 @@ from fake_useragent import UserAgent
 from typing import Optional, Union
 from datetime import datetime
 import requests
-import logging
 from type import Trade, Committee
 from dotenv import load_dotenv
 import functools
@@ -82,7 +81,6 @@ class CapitolTrades:
 
     def __get_data(self) -> Optional[dict]:
         """Gather data on all known politicians from https://capitoltrades.com"""
-        logging.debug("Getting seed data")
 
         seed_data = []
         page = 1
@@ -106,7 +104,6 @@ class CapitolTrades:
 
     def __parse_data(self, data: dict) -> dict[str, str]:
         """Reformat the API data into a hash map we can use to search for politicians by name."""
-        logging.debug("Parsing list of politicians")
         return {p["_politicianId"]: p["fullName"] for p in data}
 
     def get_committee(self, committee: Union[str, list[str]]) -> list[Committee]:

@@ -136,3 +136,144 @@ class Trade:
     def pub_trade_diff(self) -> timedelta:
         """Get the difference between trade- publication & order date in days"""
         return self.pub_date - self.tx_date
+
+
+@dataclass_json(letter_case=LetterCase.CAMEL)
+@dataclass
+class CompanyOfficer:
+    max_age: Optional[int] = None
+    name: Optional[str] = None
+    age: Optional[int] = None
+    title: Optional[str] = None
+    year_born: Optional[int] = None
+    fiscal_year: Optional[int] = None
+    total_pay: Optional[float] = None
+
+
+@dataclass_json(letter_case=LetterCase.CAMEL)
+@dataclass
+class Stock:
+    """Represents the entire stock's info object from Yahoo Finance API"""
+
+    address1: str
+    city: str
+    state: str
+    zip: str
+    country: str
+    phone: str
+    website: str
+    industry: str
+    industryKey: str
+    company_officers: list[CompanyOfficer]
+    industryDisp: str
+    sector: str
+    sectorKey: str
+    sectorDisp: str
+    longBusinessSummary: str
+    fullTimeEmployees: int
+    audit_risk: int
+    board_risk: int
+    compensation_risk: int
+    share_holder_rights_risk: int
+    overall_risk: int
+    governance_epoch_date: int
+    compensation_as_of_epoch_date: int
+    ir_website: str
+    max_age: int
+    price_hint: int
+    previous_close: float
+    open: float
+    day_low: float
+    day_high: float
+    regular_market_previous_close: float
+    regular_market_open: float
+    regular_market_day_low: float
+    regular_market_day_high: float
+    dividend_rate: float
+    dividend_yield: float
+    ex_dividend_date: int
+    payout_ratio: float
+    five_year_avg_dividend_yield: float
+    beta: float
+    trailingPE: float
+    forwardPE: float
+    volume: int
+    regular_market_volume: int
+    average_volume: int
+    bid: float
+    ask: float
+    bid_size: int
+    ask_size: int
+    market_cap: int
+    fifty_two_week_low: float
+    fifty_two_week_high: float
+    price_to_sales_trailing_12_months: float
+    fifty_day_average: float
+    trailing_annual_dividend_rate: float
+    trailing_annual_dividend_yield: float
+    currency: str
+    enterprise_value: int
+    profit_margins: float
+    float_shares: int
+    shares_outstanding: int
+    shares_short: int
+    shares_short_prior_month: int
+    shares_short_previous_month_date: int
+    date_short_interest: int
+    shares_percent_shares_out: float
+    held_percent_insiders: float
+    held_percent_institutions: float
+    short_ratio: float
+    implied_shares_outstanding: int
+    book_value: float
+    price_to_book: float
+    last_fiscal_year_end: int
+    next_fiscal_year_end: int
+    most_recent_quarter: int
+    earnings_quarterly_growth: float
+    net_income_to_common: int
+    trailing_eps: float
+    forward_eps: float
+    peg_ratio: float
+    last_split_factor: str
+    last_split_date: int
+    enterprise_to_revenue: float
+    enterprise_to_ebitda: float
+    last_dividend_value: float
+    last_dividend_date: int
+    exchange: str
+    quote_type: str
+    symbol: str
+    underlying_symbol: str
+    short_name: str
+    long_name: str
+    first_trade_date_epoch_utc: int
+    time_zone_full_name: str
+    time_zone_short_name: str
+    current_price: float
+    target_high_price: float
+    target_low_price: float
+    target_mean_price: float
+    target_median_price: float
+    recommendation_mean: float
+    recommendation_key: str
+    number_of_analyst_opinions: int
+    total_cash: int
+    total_cash_per_share: float
+    ebitda: int
+    total_debt: int
+    quick_ratio: float
+    current_ratio: float
+    total_revenue: int
+    debt_to_equity: float
+    revenue_per_share: float
+    return_on_assets: float
+    return_on_equity: float
+    operating_cashflow: int
+    earnings_growth: float
+    revenue_growth: float
+    gross_margins: float
+    ebitda_margins: float
+    operating_margins: float
+    financial_currency: str
+    trailing_peg_ratio: float

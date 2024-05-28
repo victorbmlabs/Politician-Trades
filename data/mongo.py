@@ -7,6 +7,7 @@ import os
 
 load_dotenv()
 CONNECTION_STRING = os.getenv("MONGODB_CONNECTION_STRING")
+MONGODB_PORTFOLIO_DOCUMENT_ID = os.getenv("MONGODB_PORTFOLIO_DOCUMENT_ID")
 
 
 class Client:
@@ -28,5 +29,6 @@ class Client:
     @property
     def portfolio(self):
         """Get portfolio data from MongoDB document"""
-        id = "6655b5e32840e72fc504e572"
-        return self.database.portfolio.find_one({"_id": ObjectId(id)})
+        return self.database.portfolio.find_one(
+            {"_id": ObjectId(MONGODB_PORTFOLIO_DOCUMENT_ID)}
+        )
