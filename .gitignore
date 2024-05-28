@@ -4,3 +4,4 @@ __pychache__/
 .dockerignore
 .venv/
 venv/
+.DS_Store
