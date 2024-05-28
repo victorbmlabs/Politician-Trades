@@ -18,12 +18,15 @@ class Client:
         self.sell_orders = self.database.sales
 
     def add_purchase(trade: Trade):
+        """Add a buy transaction to MongoDB"""
         pass
 
     def add_sale(trade: Trade):
+        """Add a sale transaction to MongoDB"""
         pass
 
     @property
     def portfolio(self):
+        """Get portfolio data from MongoDB document"""
         id = "6655b5e32840e72fc504e572"
         return self.database.portfolio.find_one({"_id": ObjectId(id)})

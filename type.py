@@ -13,6 +13,17 @@ class Chamber(Enum):
 
 @dataclass_json(letter_case=LetterCase.CAMEL)
 @dataclass
+class Stats:
+    count_issuers: int
+    count_politicians: int
+    count_trades: int
+    date_first_traded: Union[str, datetime]
+    date_last_traded: Union[str, datetime]
+    volume: int
+
+
+@dataclass_json(letter_case=LetterCase.CAMEL)
+@dataclass
 class Asset:
     asset_type: str
     asset_ticker: Optional[str]
@@ -41,6 +52,22 @@ class Politician:
     gender: str
     nickname: Optional[str]
     party: str
+
+
+@dataclass_json(letter_case=LetterCase.CAMEL)
+@dataclass
+class Committee:
+    _committeeId: str
+    chamber: str
+    committee_name: str
+    committee_url: str
+    members: list[Politician]
+    stats: Stats
+    meta: dict
+
+    def __post__init__(self):
+        self.stats.date_first_traded = parse_str_date(self.stats.date_first_traded)
+        self.stats.date_last_traded = parse_str_date(self.stats.date_last_traded)
 
 
 @dataclass_json(letter_case=LetterCase.CAMEL)

@@ -4,7 +4,7 @@ from typing import Optional, Union
 from datetime import datetime
 import requests
 import logging
-from type import Trade
+from type import Trade, Committee
 from dotenv import load_dotenv
 import functools
 import os
@@ -54,6 +54,13 @@ class CapitolTrades:
         politicians on https://capitoltrades.com. Useful for debugging."""
         return self.__politicians
 
+    def __get(self, path: str, params: dict = None):
+        r = self.__session.get(
+            f"{self.__url}{path}", headers=self.__get_headers(), params=params
+        )
+        r.raise_for_status()
+        return r
+
     def __get_headers(self) -> dict[str, any]:
         """Generates headers for the Capitol Trades API."""
         return {
@@ -81,18 +88,8 @@ class CapitolTrades:
         page = 1
         paginating = True
         while paginating:
-            params = (
-                ("page", page),
-                # 100 is the max return size of the API.
-                ("pageSize", 100),
-            )
-            r = self.__session.get(
-                self.__url + "/politicians",
-                headers=self.__get_headers(),
-                params=params,
-            )
-            r.raise_for_status()
-
+            params = {"page": page, "pageSize": 100}
+            r = self.__get("/politicians", params)
             response_json = r.json()
             data = response_json["data"]
             seed_data.extend(data)
@@ -112,6 +109,19 @@ class CapitolTrades:
         logging.debug("Parsing list of politicians")
         return {p["_politicianId"]: p["fullName"] for p in data}
 
+    def get_committee(self, committee: Union[str, list[str]]) -> list[Committee]:
+        """Gets data about the committee(s) from CapitolTrades"""
+        _committees = (
+            []  # Underscore for ease of use to seperate the return list (_committees) from param committee
+        )
+
+        if isinstance(committee, str):
+            committee = [committee]
+
+        for id in committee:
+            r = self.__get(f"/committees/{id}")
+            print(r.request.headers)
+
     def get_politician_id(self, name: str) -> Optional[str]:
         """Search for the politician ID of the provided name."""
         for pid in self.__politicians.keys():
@@ -130,11 +140,7 @@ class CapitolTrades:
 
         params["politician"] = id._politicianId if isinstance(id, Trade) else id
 
-        r = self.__session.get(
-            self.__url + "/trades", params=params, headers=self.__get_headers()
-        )
-        r.raise_for_status()
-
+        r = self.__get("/trades", params)
         data = r.json()
         print(data)
         all_trades.extend(Trade.from_dict(tr) for tr in data["data"])
@@ -156,13 +162,7 @@ class CapitolTrades:
                 ("txDate", "all"),
                 ("politician", politician_id),
             )
-            r = self.__session.get(
-                self.__url + "/trades",
-                headers=self.__get_headers(),
-                params=params,
-            )
-            r.raise_for_status()
-
+            r = self.__get("/trades", params=params)
             response_json = r.json()
             data = response_json["data"]
             all_trades.extend(data)
@@ -189,13 +189,7 @@ class CapitolTrades:
 
         while paginating:
             params = {"page": page}
-            r = self.__session.get(
-                self.__url + "/trades",
-                headers=self.__get_headers(),
-                params=params,
-                timeout=5,
-            )
-            r.raise_for_status()
+            r = self.__get("/trades", params=params)
             data = r.json()
 
             all_trades.extend(Trade.from_dict(tr) for tr in data["data"])
